@@ -50,7 +50,7 @@ $(document).ready(function () {
         $(".logo_1").fadeOut();
         sleep(500).then(() => {
             $(".logo_1").fadeIn();
-            window.location.href = "https://blog.minloha.cn"
+            window.location.href = "https://www.minloha.cn"
         })
     });
     $(".logo_2").click(function () {
