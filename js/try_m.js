@@ -4,7 +4,7 @@ var isMobile = false;
 for (var i=0; i<mobileAgent.length; i++){
     if (browser.indexOf(mobileAgent[i])!=-1) {
         isMobile = true;
-        location.href = 'Mobile/index.html';
+        location.href = 'mobile/index.html';
 
     break;
     }
