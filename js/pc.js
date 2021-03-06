@@ -1,18 +1,19 @@
-function IsPC() {
-        var userAgentInfo = navigator.userAgent;
-        var Agents = ['Android', 'iPhone',
-            'SymbianOS', 'Windows Phone',
-            'iPad', 'iPod'
-        ];
-        var flag = true;
-        for (var i = 0; i < Agents.length; i++) {
-            if (userAgentInfo.indexOf(Agents[i]) != -1) {
-                flag = false;
-                break;
-            }
-        }
-        return flag;
-    }
+function IsPC() {  
+       var userAgentInfo = navigator.userAgent;  
+       var Agents = ['Android', 'iPhone',  
+           'SymbianOS', 'Windows Phone',  
+           'iPad', 'iPod'  
+       ];  
+       var flag = true;  
+       for (var i = 0; i < Agents.length; i++) {  
+           if (userAgentInfo.indexOf(Agents[i]) != -1) {  
+               flag = false;  
+               break;  
+           }  
+       }  
+       return flag;  
+   }
 if(IsPC()){
-    alert(123);
+	location.href = '/index.html';
+	break;
 }
