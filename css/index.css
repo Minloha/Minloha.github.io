@@ -69,7 +69,6 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin: 0 auto;
     letter-spacing: 1px;
     text-align: center;
     background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.5));
