@@ -6,7 +6,7 @@ $(document).ready(function () {
         $(".mb_logo_1").fadeOut();
         sleep(500).then(() => {
             $(".mb_logo_1").fadeIn();
-            window.location.href = "https://www.minloha.cn"
+            window.location.href = "https://blog.minloha.cn"
         })
     });
     $(".mb_logo_2").click(function () {
