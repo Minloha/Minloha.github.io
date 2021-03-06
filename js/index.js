@@ -20,9 +20,10 @@ function changeIMG() {
             $(".main_location").css("left","20%")
         })
     }
-    document.getElementById('backimg').style.backgroundImage="url(img/background" + imgnum + ".jpg)"
+    document.getElementById('backimg').style.backgroundImage="url(/img/background" + imgnum + ".jpg)"
 }
 changeIMG()
+
 function sleep (time) {
     return new Promise((resolve) => setTimeout(resolve, time));
 }
@@ -43,6 +44,7 @@ sleep(100).then(() => {
     }
     typing()
 })
+
 $(document).ready(function () {
     $(".main_location").hide();
     $(".main_location").fadeIn(1000);
