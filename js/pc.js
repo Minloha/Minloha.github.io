@@ -1,11 +1,18 @@
-var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
-var browser = navigator.userAgent.toLowerCase();
-var isMobile = false;
-for (var i=0; i<mobileAgent.length; i++){
-    if (browser.indexOf(mobileAgent[i])!=-1) {
-        isMobile = true;
-    break;
-    }else{
-        location.href = '/index.html';
-}
+function IsPC() {
+        var userAgentInfo = navigator.userAgent;
+        var Agents = ['Android', 'iPhone',
+            'SymbianOS', 'Windows Phone',
+            'iPad', 'iPod'
+        ];
+        var flag = true;
+        for (var i = 0; i < Agents.length; i++) {
+            if (userAgentInfo.indexOf(Agents[i]) != -1) {
+                flag = false;
+                break;
+            }
+        }
+        return flag;
+    }
+if(IsPC()){
+    alert(123);
 }
