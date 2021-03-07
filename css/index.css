@@ -30,34 +30,10 @@
     height: 10.5cm;
     box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
 }
-.logo_1{
-    position: absolute;
-    left: 15%;
-}
-.logo_2{
-    position: absolute;
-    left: 45%;
-}
-.logo_3{
-    position: absolute;
-    left: 73%;
-}
-.logo_4{
-    position: absolute;
-    top: 72%;
-    left: 13%;
-}
-.logo_5{
-    position: absolute;
-    top: 71%;
-    left: 45%;
-}
-.logo_6{
-    position: absolute;
-    top: 71%;
-    left: 75%;
-}
 .docker{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 80% 80%;
     font-weight: bold;
     color: rgba(0,0,0,0.7);
 }

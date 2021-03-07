@@ -7,12 +7,12 @@
     box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
 }
 .mb_main_location{
-    width: 50%;
-    margin-left: 10%;
+    height: 100%;
+    margin-top: 10%;
     text-align: center;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .head_img img:target{
     transform: rotate(-360deg);
@@ -28,38 +28,26 @@
     vertical-align: middle;
     box-shadow: 10px 10px 50px #888888;
 }
-
-.mb_logo_1{
-    position: absolute;
-    left: 10%;
-}
-.mb_logo_2{
-    position: absolute;
-    left: 28%;
-}
-.mb_logo_3{
-    position: absolute;
-    left: 47%;
-}
-.mb_logo_4{
-    margin-bottom: 30px;
-    position: absolute;
-    left: 9.5%;
-    bottom: 7%;
-}
-.mb_logo_5{
-    margin-bottom: 30px;
-    position: absolute;
-    left: 28%;
-    bottom: 6%;
-}
-.mb_logo_6{
-    margin-bottom: 30px;
-    position: absolute;
-    left: 47%;
-    bottom: 6%;
+.text{
+    margin-top: -25px;
+    font-size: xx-large;
+    color: rgba(0,0,0,0.6);
 }
 .mb_docker{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 100% 100%;
     font-weight: bold;
     color: rgba(0,0,0,0.7);
+}
+.foot{
+    line-height: 35px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: 1px;
+    margin-left: -0.5%;
+    text-align: center;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.5));
+    color: #fff;
 }
