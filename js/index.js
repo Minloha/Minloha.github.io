@@ -2,27 +2,31 @@ function changeIMG() {
     var imgnum = Math.floor(Math.random()*9)+1;
     if(imgnum === 2){
         $(document).ready(function () {
-            $(".main_location").css("right","20%")
+            $(".main_location").css("right","20%");
         })
     }else if(imgnum === 7){
         $(document).ready(function () {
-            $(".main_location").css("right","20%")
-            $(".card").css("background","rgba(192,192,192,0.8)")
+            $(".main_location").css("right","20%");
+            $(".card").css("background","rgba(192,192,192,0.7)");
         })
     }else if(imgnum === 4){
         $(document).ready(function () {
-            $(".main_location").css("left","20%")
-            $(".card").css("box-shadow","0px 0px 20px rgba(0,0,0,0.4)")
+            $(".main_location").css("left","20%");
+            $(".card").css("box-shadow","0px 0px 20px rgba(0,0,0,0.4)");
         })
-    }
-    else{
+    }else{
         $(document).ready(function () {
-            $(".main_location").css("left","20%")
+            $(".main_location").css("left","20%");
         })
     }
     document.getElementById('backimg').style.backgroundImage="url(/img/background" + imgnum + ".jpg)"
+    imgnum = null;
 }
 changeIMG()
+
+function toOne() {
+    location.reload();
+}
 
 function sleep (time) {
     return new Promise((resolve) => setTimeout(resolve, time));
@@ -52,7 +56,7 @@ $(document).ready(function () {
         $(".logo_1").fadeOut();
         sleep(500).then(() => {
             $(".logo_1").fadeIn();
-            window.location.href = "https://blog.minloha.cn"
+            window.location.href = "https://www.minloha.cn"
         })
     });
     $(".logo_2").click(function () {
