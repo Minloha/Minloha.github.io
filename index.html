@@ -1,72 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title id="title_line">Minloha索引站</title>
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-</head>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Minloha索引站</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		    <link rel="shortcut icon" href="https://cdn.minloha.cn/www/img/favicon.ico">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<script src="js/try_m.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<body id="backimg" style="background-repeat:no-repeat ;background-attachment: fixed;">
-<div class="main_location">
-<div class="card">
-<div class="head_img">
-    <img class="user-avatar" src="img/avatar.png" class="img" style="margin: 0 auto;" alt="头像" onclick="toOne()">
-</div>
-    <div class="text">
-        <p id="text_01"></p>
-    </div>
-    <div class="docker">
-        <div class="logo_1" id="logo_1">
-            <div class="fa_font">
-                <i class="fa fa-home" style="font-size: 40px;color: rgba(199,21,133,0.7)" class="img_fa"></i>
-            </div>
-            博客
-        </div>
-        <div class="logo_2" id="logo_2">
-            <div class="fa_font">
-                <i class="fa fa-cloud-download" style="font-size: 40px;color: rgba(54,121,235,0.7)" class="img_fa"></i>
-            </div>
-            网盘
-        </div>
-        <div class="logo_3" id="logo_3">
-            <div class="fa_font">
-                <i class="fa fa-github" style="font-size: 40px;color: rgba(0,0,0,0.9)" class="img_fa"></i>
-            </div>
-            Github
-        </div>
-        <div class="logo_4" id="logo_4">
-            <div class="fa_font">
-                <img src="https://www.bilibili.com/favicon.ico">
-            </div>
-            Bilibili
-        </div>
-        <div class="logo_5" id="logo_5">
-            <div class="fa_font">
-                <i class="fa fa-youtube-play" style="font-size: 40px;color: rgba(204,4,4,0.7)" class="img_fa"></i>
-            </div>
-            Ytb
-        </div>
-        <div class="logo_6" id="logo_6">
-            <div class="fa_font">
-                <i class="fa fa-qq" style="font-size: 40px;color: rgba(10,10,10,0.7)" class="img_fa"></i>
-            </div>
-            QQ
-        </div>
-    </div>
-</div>
-</div>
-<div class="foot">
-    ©2020~2022 by Minloha
-        <br>
-    Theme by Minloha
-</div>
-</body>
+				<!-- Header -->
+					<header id="header">
+						<div class="head_img">
+							<img class="user-avatar" src="https://cdn.minloha.cn/blog/avatar.png" class="img" alt="头像">
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1 id="title_text">Minloha</h1>
+								<p>不太正经但又热心帮助别人<br />
+								接触过的东西很多 生活处处需要<a href="#">学习</a></p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">博客</a></li>
+								<li><a href="#work">网盘</a></li>
+								<li><a href="#about">社交</a></li>
+								<li><a href="#contact">CDN</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">博客</h2>
+								<a href="https://blog.minloha.cn"><span class="image main"><img src="images/pic01.jpg" alt="" /></span></a>
+								<p>最开始的博客是我边学边写所创造的一个前端很丑的博客，后来使用typecho进行创作，但是后来因为访问速度的问题，永远的搁置了。现在所使用的是分布式存储网络，不会掉线也不会咕咕咕。</p>
+								<p>有时会发一些自己所感兴趣的话题或者游戏，亦或者是最近在思考与研究的新科技，不定期更新内容，都是看时间是否充裕或者有没有新的想法之类的。本人高中生在读，2022年高考，高考之后将投身于我的网站中，请为我加油(ง •_•)ง</p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">网盘</h2>
+								<a href="https://pan.minloha.cn"><span class="image main"><img src="images/pic02.jpg" alt="" /></span></a>
+								<p>网盘主要是我分享出的文件，也有一些博客附属的文件，也有一些带有版权的文件，请遵守版权所有方的规定</p>
+								<p></p>
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">社交</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p>QQ：2821163570</p>
+								<p>Github：iMinloha</p>
+								<p>Bilibili：iMinloha</p>
+								<p>邮箱：admin@minloha.cn</p>
+								<p>原神：163096976</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">CDN</h2>
+								<a href="https://cdn.minloha.cn"><span class="image main"><img src="images/pic04.jpg" alt="" /></span></a>
+								<p>获取Minloha的文件CDN，具体上传可以在社交栏目内获得</p>
+							</article>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Minloha <a href="http://www.minloha.cn" target="_blank" title="Min">Minloha's site</a> - from <a href="https://blog.minloha.cn" title="博客" target="_blank">blog'link</a></p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
-<script src="js/index.js"></script>
