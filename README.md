@@ -1,5 +1,9 @@
 # Minloha.github.io
-这里是索引站，目前并未适配手机界面
+这里是索引站
+
+> 地址
+
+https://www.minloha.cn
 
 > 博客地址
 
