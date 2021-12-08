@@ -1,4 +1,4 @@
-
+# robots.txt,非搜索引擎爬虫自觉滚蛋
 User-agent: Yisouspider
 Allow: /
 
